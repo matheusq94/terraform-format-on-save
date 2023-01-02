@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 		if ((document.fileName.endsWith('.tf')) || (document.fileName.endsWith('.tfvars'))) {
 			const terminal = vscode.window.createTerminal({ hideFromUser: true })
-			terminal.sendText(`terraform fmt ${document.fileName}`)
+			terminal.sendText(` terraform fmt ${document.fileName}`)
 		}
 	})
 
