@@ -4,7 +4,7 @@
 	"publisher": "matheusq94",
 	"description": "Run terraform fmt on file when it's saved.",
 	"icon": "assets/icons/tfs.png",
-	"version": "0.0.4",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
