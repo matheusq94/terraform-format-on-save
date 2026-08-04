@@ -18,10 +18,10 @@ export function activate(context: vscode.ExtensionContext) {
 				return;
 			}
 
-			const terminal = vscode.window.createTerminal({ hideFromUser: true })
-			terminal.sendText(` terraform fmt ${document.fileName}`)
-		})
-	})
+			const terminal = vscode.window.createTerminal({ hideFromUser: true });
+			terminal.sendText(` terraform fmt ${document.fileName}`);
+		});
+	});
 	
 	context.subscriptions.push(disposable);
 
